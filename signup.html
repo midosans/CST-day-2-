@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <p id="header" class="center-align">
+            <a href="home.html" class="main-nav">Home</a>
+            <a href="main.html" class="main-nav">Main page</a>
+            <a href="contact.html" class="main-nav">Contact us</a>
+            <a href="TimeTable.html" class="main-nav">Timetable</a>
+            <a href="help.html" class="main-nav">Help</a>
+            <a href="signup.html" class="main-nav">Register</a>
+            <a href="login.html" class="main-nav">Login</a>
+        </p>
+        <p class="bold-title">Join the CST Learning Hub</p>
+    </div>
+    <form id="signup-form" method="POST" action="https://formspree.io/f/xljjbvzb">
+        <table class="register-table">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+                <td><label for="Fname">First name</label></td>
+                <td>
+                <input type="text" id="Fname" name="Fname" placeholder="Enter first name" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Lname">Last name</label></td>
+                <td>
+                    <input type="text" id="Lname" name="Lname" placeholder="Enter last name" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td>
+                    <input type="text" id="username" name="username" placeholder="Enter username" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td>
+                    <input type="password" id="password" name="password" placeholder="Choose a password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td>
+                    <select id="country" name="country" required>
+                        <option value="">Select a country</option>
+                        <option value="egypt">Egypt</option>
+                        <option value="KSA">KSA</option>
+                        <option value="palstine">Palestine</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>
+                    <label for="month">Month</label>
+                    <select id="month" name="month">
+                        <option value="">Month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <label for="day">Day</label>
+                    <input type="text" id="day" name="day" placeholder="DD">
+                    <label for="year">Year</label>
+                    <input type="text" id="year" name="year"
+                        placeholder="YYYY">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Interests</th>
+            </tr>
+            <tr>
+                <td colspan="2" class="interests">
+                    <input type="checkbox" id="sports" name="sports">
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" id="music" name="music">
+                    <label for="music">Music</label>
+                    <input type="checkbox" id="reading" name="reading">
+                    <label for="reading">Reading books</label>
+                    <input type="checkbox" id="gaming" name="gaming">
+                    <label for="gaming">Gaming</label>
+                    <input type="checkbox" id="travel" name="travel">
+                    <label for="travel">Travel</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="2">Bio</th>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <textarea id="bio" name="bio" placeholder="Tell us about yourself..."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="center-align">
+                    <input type="submit" value="Register" class="button">
+                    <input type="reset" value="Clear" class="button">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div class="center-align">
+        Already registered?
+        <a href="login.html" class="main-nav">Login</a> |
+        <a href="home.html" class="main-nav">Home</a>
+    </div>
+    <p class="copy-right">&copy; 2026 CST Learning Hub. All rights reserved</p>
+</body>
+
+</html>

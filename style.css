@@ -1,0 +1,295 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: blue;
+}
+
+h4 {
+    color: green;
+}
+
+h5,
+h6 {
+    color: purple;
+}
+
+textarea {
+    width: 450px;
+    height: 100px;
+    margin: 8px 6px 8px 4px;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+    resize: none;
+}
+
+
+#signup-form {
+    margin: 20px auto;
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+}
+#login-form legend{
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+select[name="country"] {
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+select[name="month"] {
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.center-align {
+    text-align: center;
+    padding: 4px;
+}
+
+.ul-item {
+    font-weight: bold;
+}
+
+.bold-title {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.smaller-title {
+    text-align: center;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.copy-right {
+    text-align: center;
+    color: grey;
+}
+
+.top-link {
+    width: 50px;
+    height: 15px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+
+.card {
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.frame-body {
+    padding: 10px 30px;
+    background-color: white;
+}
+
+#main-title {
+    color: blue;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#welcome-title {
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+#contact-title {
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#header {
+    margin-top: 40px;
+}
+
+#mid-table {
+    background-color: green;
+    color: white;
+}
+
+body {
+    background-color: rgb(238, 242, 255);
+}
+
+p.center-align a {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ol li {
+    font-style: italic;
+    margin-left: 20px;
+}
+
+p+.bold-title {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+th,
+td {
+    border: black solid 1px;
+    padding: 15px;
+}
+
+thead {
+    background-color: blueviolet;
+    color: white
+}
+
+table {
+    width: 1200px;
+    height: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+iframe {
+    width: 1200px;
+    height: 200px;
+}
+
+form + p {
+    text-align: center;
+}
+textarea + p {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.register-table {
+    width: 300px;
+    border-collapse: collapse;
+    background-color: white;
+    color: blue;
+}
+
+.register-table th {
+    background-color: rgb(114, 114, 222);
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.register-table td {
+    padding: 6px;
+    border: 1px solid white;
+}
+
+.register-table td{
+    text-align: left;
+    padding-left: 18px;
+}
+
+.register-table input[type="text"],
+.register-table input[type="password"] {
+    width: 180px;
+    padding: 4px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.register-table select {
+    padding: 4px;
+}
+
+.register-table input[type="radio"],
+.register-table input[type="checkbox"] {
+    margin-left: 3px;
+}
+
+.register-table input[name="day"]{
+    width: 30px;
+    text-align: center;}
+    
+    .register-table input[name="year"]{
+        width: 50px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .register-table textarea {
+        width: 450px;
+        height: 100px;
+        padding: 8px;
+        border: 1px solid black;
+    }
+    
+    #login-form {
+     width: 300px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#login-form fieldset {
+    border: 1px solid blue;
+    background-color: white;
+    padding: 15px;
+}
+
+#login-form legend {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+#login-form label {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    width: 160px;
+    margin-bottom: 15px;
+    padding: 4px;
+}
+
+#login-form .button {
+    margin: 10px auto 0;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+}

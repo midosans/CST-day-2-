@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <p id="header" class="center-align">
+            <a href="home.html" class="main-nav">home</a>
+            <a href="main.html" class="main-nav">Main page</a>
+            <a href="contact.html" class="main-nav">Contact us</a>
+            <a href="TimeTable.html" class="main-nav">Timetable</a>
+            <a href="help.html" class="main-nav">Help</a>
+            <a href="signup.html" class="main-nav">Register</a>
+            <a href="login.html" class="main-nav">Login</a>
+        </p>
+        <p class="bold-title">Welcome back</p>
+    </div>
+    <form id="login-form" method="GET" action="main.html">
+    <fieldset>
+        <legend>Login</legend>
+        <label for="username"><u>U</u>sername:</label>
+        <br>
+        <input type="text" id="username" name="username" accesskey="u" placeholder="Enter your username" required>
+        <br>
+        <label for="password"><u>P</u>assword:</label>
+        <br>
+        <input type="password" id="password" name="password" accesskey="p" placeholder="Enter your password" required>
+        <br>
+        <div>
+        <input type="checkbox" id="remember" name="remember" accesskey="r">
+        <label for="remember"><u>R</u>emember me:</label>
+        </div>
+        <div class="center-align"><input type="submit" value="Login" accesskey="l" class="button"></div>
+    </fieldset>
+    </form>
+    <p>
+        new here?
+        <a href="signup.html" class="main-nav">Create an account</a> |
+        <a href="home.html" class="main-nav">home</a>
+    </p>
+    <p class="copy-right">&copy; 2026 CST Learning Hub. All rights reserved</p>
+</body>
+
+</html>
